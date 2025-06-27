@@ -1,10 +1,4 @@
-<!DOCTYPE>
-<html lang="fa">
-<head>
-    <meta chaset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my page </title>
-    <style>
+
         *{
             border:2px black
         }
@@ -60,6 +54,10 @@
 
             
         }
+        .highlight{
+            color:black;
+            font-weight:bold;
+        }
         #about{
             width: 70%;
             background-color:rgb(0, 108, 171);
@@ -92,54 +90,4 @@
 
         }
         
-    </style>
-</head>
-<body>
-    <!-- header -->
-    <header>
-        <h1>welcome to my page</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#home">home</a>
-                </li>
-                <li>
-                    <a href="#about">about</a>
-                </li>
-                <li>
-                    <a href="#contact">contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-     
-    <!--content-->
-    <main>
-        <section id="home">
-            <h2>home</h2>
-            <p>this is home page</p>
-            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sistemaimpulsa.com%2Fblog%2Fmejores-practicas-para-construir-una-landing-page%2F&psig=AOvVaw3MK_K2HT-8adp30wciiBUq&ust=1750926067222000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJCMnoaSjI4DFQAAAAAdAAAAABAK" alt="sample image" width="300px">
-
-        </section>
-        <section id="about">
-            <h2>about</h2>
-            <p> we are a company that provide web design and development services</p>
-
-        </section>
-        <section id="contact">
-            <h2>contact</h2>
-            <p>you can contact us at: </p>
-            <address>email: info@mycompany.company
-                telephone: 0123456780
-            </address>
-        </section>
-    </main>
-
-    <!-- footer -->
-     <footer>
-
-     <p> &copy; 2025 my company. all right reseved</p>
-</footer>
-
-</body>
-</html>
+   
