@@ -12,3 +12,26 @@ h1{
     margin-bottom:20px;
 
 }
+p{
+    font-size: 18px;
+    margin-bottom: 25px;
+    ;
+}
+a{
+    color:#ff5733;
+    text-decoration:none;
+font-size:20px;
+}
+a:hover {
+    text-decoration:underline;
+
+}
+
+button{
+    font-size:25px;
+    margin:25px;
+    padding:10px;
+    border-radius:5px;
+    border:none;
+    background-color:#218838;
+}
