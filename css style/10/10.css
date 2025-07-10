@@ -1,0 +1,58 @@
+body {
+    font-family: 'georgia', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: ۱۰۰vh;
+    margin: ۰;
+    background-color: #f4f4f4;
+}
+.box {
+    width: 300px;
+    padding: 25px;
+    background: linear-gradient(to right, #007BFF, #0056b3);
+    border: 3px solid #ffffff;
+    margin: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight:900;
+    border-radius: 15px; /* گوشه‌های گرد */
+    box-shadow: 10px 8px 8px rgba(0, 0, 0, 0.2); /* سایه */
+    transition: transform 0.3s ease; /* انیمیشن برای hover */
+}
+.text{
+     
+    border: 3px solid #ffb700;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight:900;
+    border-radius: 15px; /* گوشه‌های گرد */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* سایه */
+    transition: transform 0.3s ease; /* انیمیشن برای hover */
+}
+
+.box:hover {
+    transform: translateX(10px); /* حرکت به بالا هنگام hover */
+}
+
+.box-button{
+    border: 3px solid #ffae00;
+    background-color: #0056b3;
+    padding:8px;
+    margin: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight:900;
+    border-radius: 15px; /* گوشه‌های گرد */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* سایه */
+    transition: transform 0.3s ease; /* انیمیشن برای hover */
+
+}
+.box-button:hover{
+    background-color: #ffae00;
+}
